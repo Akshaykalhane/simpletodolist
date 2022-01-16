@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff4d4d;
+}
+.container{
+
+    width: 40%;
+
+    /* height: 400px; */
+    min-width: 450px;
+    /* background-color: rgba(182, 172, 172, 0.713); */
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border-radius: 15px; */
+    /* box-shadow: 0px 0px 20px black;  */
+    /* width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px; */
+}
+.container > h2{
+    text-align: center;
+}
+.todocontent{
+    /* border: 2px solid rgb(58, 56, 56); */
+    /* height: 15%; */
+    position: relative;
+    /* margin-top: 10%; */
+    position: relative;
+    background-color: rgb(233, 151, 151);
+    top: 0;
+    left: 0;
+    /* padding-top: 4%; */
+    padding: 30px 20px;
+    /* border-radius: 15px; */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    border-radius: 5px;
+
+}
+#inputfield{
+    width: 70%;
+    height: 45px;
+    border: 2px solid rgb(158, 151, 151);
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 5%;
+    padding: 12px;
+    position: relative;
+    border-radius: 5px;
+    /* border: none; */
+}
+#inputfield:focus{
+    border-color: rgb(120, 232, 211);
+}
+#addbtn{
+    position: relative;
+    float: right;
+    height: 45px;
+    border-radius: 5px;
+    width: 20%;
+    /* border: 1px solid rgb(49, 49, 49); */
+    background-color: rgb(84, 87, 94);
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    /* background-color: rgb(206, 204, 200); */
+    color: #fff;
+    font-size: 20px;
+    /* margin-left: 2%; */
+}
+.todos{
+    margin-top: 5%;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-left: 7%; */
+    background-color: rgb(233, 151, 151);
+    border-radius: 5px;
+    position: relative;
+    padding: 30px 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    /* border-radius: 15px; */
+}
+.paragraph-style{
+    margin: 0;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(48, 48, 48);
+    /* height: 50px;
+    /* padding: 5px 10px; */
+    margin-top: 10px; 
+    font-weight: 200;
+    /* line-height: 1.2; */
+   /* padding-left: 2%; */
+   border-bottom: 1px solid silver;
+}
